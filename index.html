@@ -234,6 +234,9 @@
                     name="user-name"
                     id="user-name"
                     placeholder="Ваше ім'я та прізвище"
+                    pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+$"
+                    title="Формат: Тарас Шевченко"
+                    required
                   />
                 </div>
 
@@ -247,6 +250,9 @@
                     name="user-tel"
                     id="user-tel"
                     placeholder="Ваш номер телефону"
+                    pattern="^\+[0-9]{12}"
+                    title="Формат: +380501234567"
+                    required
                   />
                 </div>
 
@@ -260,6 +266,9 @@
                     name="user-email"
                     id="user-email"
                     placeholder="Ваша електронна пошта"
+                    pattern="/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                    title="Формат: mrsmith@gmail.com"
+                    required
                   />
                 </div>
 
